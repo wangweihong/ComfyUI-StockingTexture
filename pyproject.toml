@@ -1,0 +1,10 @@
+[project]
+name = "comfyui-stocking-texture"
+version = "0.1.0"
+description = "Standalone stocking texture and material editor for ComfyUI"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--import-mode=importlib --confcutdir=tests"
+pythonpath = [".", "tests"]
