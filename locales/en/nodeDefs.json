@@ -1,6 +1,6 @@
 {
   "NFStockingTexture": {
-    "display_name": "tb-Stocking texture · Unified editor and batch",
+    "display_name": "st-Stocking texture · Unified editor and batch",
     "inputs": {
       "images": {
         "name": "Images"
@@ -152,7 +152,7 @@
     }
   },
   "NFStockingEditor": {
-    "display_name": "tb-Stocking guides (advanced)",
+    "display_name": "st-Stocking guides (advanced)",
     "inputs": {
       "images": {
         "name": "Images"
@@ -250,7 +250,7 @@
     }
   },
   "NFStockingSolve": {
-    "display_name": "tb-Stocking field solver (advanced)",
+    "display_name": "st-Stocking field solver (advanced)",
     "inputs": {
       "images": {
         "name": "Images"
@@ -348,7 +348,7 @@
     }
   },
   "NFStockingRender": {
-    "display_name": "tb-Stocking renderer (advanced)",
+    "display_name": "st-Stocking renderer (advanced)",
     "inputs": {
       "images": {
         "name": "Images"
@@ -473,7 +473,7 @@
     }
   },
   "NFStockingSAMLoader": {
-    "display_name": "tb-Stocking SAM point model",
+    "display_name": "st-Stocking SAM point model",
     "inputs": {
       "images": {
         "name": "Images"
@@ -571,7 +571,7 @@
     }
   },
   "NFStockingDepth": {
-    "display_name": "tb-Stocking depth helper",
+    "display_name": "st-Stocking depth helper",
     "inputs": {
       "images": {
         "name": "Images"
@@ -669,7 +669,7 @@
     }
   },
   "NFStockingPSDLoad": {
-    "display_name": "tb-Stocking PSD/PSB load",
+    "display_name": "st-Stocking PSD/PSB load",
     "inputs": {
       "psd_file": {
         "name": "PSD/PSB file"
@@ -677,21 +677,21 @@
     }
   },
   "NFStockingPSDSave": {
-    "display_name": "tb-Stocking guide PSD save"
+    "display_name": "st-Stocking guide PSD save"
   },
   "NFStockingPatternLayer": {
-    "display_name": "tb-Stocking pattern layer"
+    "display_name": "st-Stocking pattern layer"
   },
   "NFStockingTextLayer": {
-    "display_name": "tb-Stocking text layer"
+    "display_name": "st-Stocking text layer"
   },
   "NFStockingLayerStack": {
-    "display_name": "tb-Stocking layer stack"
+    "display_name": "st-Stocking layer stack"
   },
   "NFStockingDamageConfig": {
-    "display_name": "tb-Stocking damage config"
+    "display_name": "st-Stocking damage config"
   },
   "NFStockingMaterial": {
-    "display_name": "tb-Stocking material"
+    "display_name": "st-Stocking material"
   }
 }

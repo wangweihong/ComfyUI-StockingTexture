@@ -1,6 +1,6 @@
 {
   "NFStockingTexture": {
-    "display_name": "tb-丝袜纹理 · 一体化编辑与批处理",
+    "display_name": "st-丝袜纹理 · 一体化编辑与批处理",
     "inputs": {
       "images": {
         "name": "图像"
@@ -152,7 +152,7 @@
     }
   },
   "NFStockingEditor": {
-    "display_name": "tb-丝袜引导编辑器（高级）",
+    "display_name": "st-丝袜引导编辑器（高级）",
     "inputs": {
       "images": {
         "name": "图像"
@@ -250,7 +250,7 @@
     }
   },
   "NFStockingSolve": {
-    "display_name": "tb-丝袜走向求解（高级）",
+    "display_name": "st-丝袜走向求解（高级）",
     "inputs": {
       "images": {
         "name": "图像"
@@ -348,7 +348,7 @@
     }
   },
   "NFStockingRender": {
-    "display_name": "tb-丝袜纹理渲染（高级）",
+    "display_name": "st-丝袜纹理渲染（高级）",
     "inputs": {
       "images": {
         "name": "图像"
@@ -473,7 +473,7 @@
     }
   },
   "NFStockingSAMLoader": {
-    "display_name": "tb-丝袜 SAM 点选模型",
+    "display_name": "st-丝袜 SAM 点选模型",
     "inputs": {
       "images": {
         "name": "图像"
@@ -571,7 +571,7 @@
     }
   },
   "NFStockingDepth": {
-    "display_name": "tb-丝袜深度辅助",
+    "display_name": "st-丝袜深度辅助",
     "inputs": {
       "images": {
         "name": "图像"
@@ -669,7 +669,7 @@
     }
   },
   "NFStockingPSDLoad": {
-    "display_name": "tb-丝袜 PSD/PSB 导入",
+    "display_name": "st-丝袜 PSD/PSB 导入",
     "inputs": {
       "psd_file": {
         "name": "PSD/PSB 文件"
@@ -677,21 +677,21 @@
     }
   },
   "NFStockingPSDSave": {
-    "display_name": "tb-丝袜引导 PSD 导出"
+    "display_name": "st-丝袜引导 PSD 导出"
   },
   "NFStockingPatternLayer": {
-    "display_name": "tb-丝袜花纹层"
+    "display_name": "st-丝袜花纹层"
   },
   "NFStockingTextLayer": {
-    "display_name": "tb-丝袜文字层"
+    "display_name": "st-丝袜文字层"
   },
   "NFStockingLayerStack": {
-    "display_name": "tb-丝袜图层组合"
+    "display_name": "st-丝袜图层组合"
   },
   "NFStockingDamageConfig": {
-    "display_name": "tb-丝袜损伤配置"
+    "display_name": "st-丝袜损伤配置"
   },
   "NFStockingMaterial": {
-    "display_name": "tb-丝袜基础材质"
+    "display_name": "st-丝袜基础材质"
   }
 }

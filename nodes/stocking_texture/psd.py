@@ -110,7 +110,7 @@ class NFStockingPSDLoad:
     RETURN_TYPES = ("IMAGE", "STRING", "STRING", "MASK", "STRING")
     RETURN_NAMES = ("images", "guides_json", "advanced_guides_json", "sparkle_mask", "report")
     FUNCTION = "load"
-    CATEGORY = "南风节点/丝袜纹理"
+    CATEGORY = "StockingTexture/丝袜纹理"
 
     @classmethod
     def IS_CHANGED(cls, psd_file):
@@ -132,7 +132,7 @@ class NFStockingPSDSave:
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("files",)
     FUNCTION = "save"
-    CATEGORY = "南风节点/丝袜纹理"
+    CATEGORY = "StockingTexture/丝袜纹理"
     OUTPUT_NODE = True
 
     def save(self, images, filename_prefix="Stocking/guides", guides=None, guides_json="{}", sparkle_mask=None):

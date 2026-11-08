@@ -407,7 +407,7 @@
     {
       "id": 7,
       "type": "NFStockingPatternLayer",
-      "title": "tb-丝袜花纹层",
+      "title": "st-丝袜花纹层",
       "pos": [
         2400,
         -2000
@@ -445,7 +445,7 @@
     {
       "id": 8,
       "type": "NFStockingLayerStack",
-      "title": "tb-丝袜图层组合",
+      "title": "st-丝袜图层组合",
       "pos": [
         2800,
         -2000
@@ -628,7 +628,7 @@
     {
       "id": 10,
       "type": "NFStockingPatternLayer",
-      "title": "tb-丝袜花纹层",
+      "title": "st-丝袜花纹层",
       "pos": [
         400,
         -1630
@@ -666,7 +666,7 @@
     {
       "id": 11,
       "type": "NFStockingTextLayer",
-      "title": "tb-丝袜文字层",
+      "title": "st-丝袜文字层",
       "pos": [
         800,
         -1630
@@ -706,7 +706,7 @@
     {
       "id": 12,
       "type": "NFStockingLayerStack",
-      "title": "tb-丝袜图层组合",
+      "title": "st-丝袜图层组合",
       "pos": [
         1200,
         -1630
@@ -889,7 +889,7 @@
     {
       "id": 14,
       "type": "NFStockingDamageConfig",
-      "title": "tb-丝袜损伤配置",
+      "title": "st-丝袜损伤配置",
       "pos": [
         2000,
         -1630
@@ -927,7 +927,7 @@
     {
       "id": 15,
       "type": "NFStockingPatternLayer",
-      "title": "tb-丝袜花纹层",
+      "title": "st-丝袜花纹层",
       "pos": [
         2400,
         -1630
@@ -965,7 +965,7 @@
     {
       "id": 16,
       "type": "NFStockingTextLayer",
-      "title": "tb-丝袜文字层",
+      "title": "st-丝袜文字层",
       "pos": [
         2800,
         -1630
@@ -1005,7 +1005,7 @@
     {
       "id": 17,
       "type": "NFStockingTextLayer",
-      "title": "tb-丝袜文字层",
+      "title": "st-丝袜文字层",
       "pos": [
         0,
         -1260
@@ -1045,7 +1045,7 @@
     {
       "id": 18,
       "type": "NFStockingLayerStack",
-      "title": "tb-丝袜图层组合",
+      "title": "st-丝袜图层组合",
       "pos": [
         400,
         -1260

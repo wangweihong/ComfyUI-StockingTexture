@@ -16,7 +16,7 @@ const EN = {
     "没有目标选区": "No target region", "没有有效走向；请启用基础走向或绘制横向引导": "No valid direction; enable basic direction or draw transverse guides",
     "未改变任何像素：请检查颜色排除、纹理/亮点强度及过密衰减": "No changed pixels: check color exclusion, texture/sparkle strength and attenuation",
     "点选已就绪，当前会话设备选项": "Point selection ready, device", "：首次点击加载本地 SAM；左键添加，右键减去，自动预览推荐范围；选小/中/大后点击“应用选区”。修改模型或设备后重新打开编辑器以准备底图。": ": first click loads local SAM. Left adds, right subtracts. Preview Small/Medium/Large and Apply selection. Reopen editor after model/device changes.",
-    "点选不可用：未连接 SAM 模型。请把「tb-丝袜 SAM 点选模型」连接到本节点的 sam 输入，再重新打开编辑器。": "Point selection unavailable: connect the original ViT-B SAM loader to sam and reopen editor.",
+    "点选不可用：未连接 SAM 模型。请把「st-丝袜 SAM 点选模型」连接到本节点的 sam 输入，再重新打开编辑器。": "Point selection unavailable: connect the original ViT-B SAM loader to sam and reopen editor.",
 
     "丝袜纹理 · 编辑与预览": "Stocking texture · Edit and preview", "丝袜纹理预览": "Stocking texture preview", "丝袜引导编辑器": "Stocking guide editor",
     "丝袜引导 · 部位、走向与隔开": "Stocking guides · Regions, direction and barriers", "丝袜纹理 · 选样式、调参数": "Stocking texture · Style and parameters",

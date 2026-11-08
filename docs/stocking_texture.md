@@ -1,6 +1,6 @@
 # 丝袜纹理节点
 
-节点位于 `南风节点/丝袜纹理`，由 ComfyUI-StockingTexture 注册。原有五种样式依次为 `knit`（细线）、`loops`（针织）、
+节点位于 `StockingTexture/丝袜纹理`，由 ComfyUI-StockingTexture 注册。原有五种样式依次为 `knit`（细线）、`loops`（针织）、
 `lines`（斜单线）、`grain`（加濑风）、`oily`（油光，试验）。不需要扩散模型；手工流程无需 SAM 或深度模型。
 
 ## 安装和升级

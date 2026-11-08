@@ -2,7 +2,7 @@
 import json
 from .config import SCHEMA, fields, clean_layer, clean_v2, resolve_material
 
-CATEGORY='南风节点/丝袜纹理/材质配置'
+CATEGORY='StockingTexture/丝袜纹理/材质配置'
 
 
 def inputs(specs):
@@ -76,4 +76,4 @@ class NFStockingMaterial:
 
 
 NODE_CLASS_MAPPINGS={c.__name__:c for c in (NFStockingPatternLayer,NFStockingTextLayer,NFStockingLayerStack,NFStockingDamageConfig,NFStockingMaterial)}
-NODE_DISPLAY_NAME_MAPPINGS=dict(NFStockingPatternLayer='tb-丝袜花纹层',NFStockingTextLayer='tb-丝袜文字层',NFStockingLayerStack='tb-丝袜图层组合',NFStockingDamageConfig='tb-丝袜损伤配置',NFStockingMaterial='tb-丝袜基础材质')
+NODE_DISPLAY_NAME_MAPPINGS=dict(NFStockingPatternLayer='st-丝袜花纹层',NFStockingTextLayer='st-丝袜文字层',NFStockingLayerStack='st-丝袜图层组合',NFStockingDamageConfig='st-丝袜损伤配置',NFStockingMaterial='st-丝袜基础材质')

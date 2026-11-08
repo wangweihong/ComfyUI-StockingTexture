@@ -5,7 +5,7 @@
     {
       "id": 1,
       "type": "NFStockingPSDLoad",
-      "title": "tb-丝袜 PSD/PSB 导入",
+      "title": "st-丝袜 PSD/PSB 导入",
       "pos": [
         0,
         160
@@ -66,7 +66,7 @@
     {
       "id": 2,
       "type": "NFStockingTexture",
-      "title": "tb-丝袜纹理 · 一体化编辑与批处理",
+      "title": "st-丝袜纹理 · 一体化编辑与批处理",
       "pos": [
         420,
         160
@@ -294,7 +294,7 @@
     {
       "id": 4,
       "type": "NFStockingPSDSave",
-      "title": "tb-丝袜引导 PSD 导出",
+      "title": "st-丝袜引导 PSD 导出",
       "pos": [
         0,
         520

@@ -13,7 +13,7 @@ python -m pip install -r requirements-stocking-models.txt
 python -m pip install -r requirements-stocking-psd.txt
 ```
 
-重启 ComfyUI 并刷新页面。节点位于“南风节点/丝袜纹理”，主节点类型为 `NFStockingTexture`；保留现有节点参数、渲染逻辑和 `/toolbox/stocking` 编辑接口。
+重启 ComfyUI 并刷新页面。节点显示名统一以 `st-` 开头，位于独立分类“StockingTexture/丝袜纹理”（材质节点在其“材质配置”子分类），主节点类型为 `NFStockingTexture`；保留现有节点参数、渲染逻辑和 `/toolbox/stocking` 编辑接口。
 
 本项目包含全部示例、编辑器、测试、字体和上游许可证。模型按需准备，不在启动时自动下载。
 

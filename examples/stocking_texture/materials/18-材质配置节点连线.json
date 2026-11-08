@@ -43,7 +43,7 @@
     {
       "id": 2,
       "type": "NFStockingTexture",
-      "title": "tb-丝袜纹理 · 一体化编辑与批处理",
+      "title": "st-丝袜纹理 · 一体化编辑与批处理",
       "pos": [
         420,
         160
@@ -201,7 +201,7 @@
     {
       "id": 10,
       "type": "NFStockingPatternLayer",
-      "title": "tb-丝袜花纹层",
+      "title": "st-丝袜花纹层",
       "pos": [
         1260,
         160
@@ -239,7 +239,7 @@
     {
       "id": 11,
       "type": "NFStockingTextLayer",
-      "title": "tb-丝袜文字层",
+      "title": "st-丝袜文字层",
       "pos": [
         0,
         610
@@ -279,7 +279,7 @@
     {
       "id": 12,
       "type": "NFStockingLayerStack",
-      "title": "tb-丝袜图层组合",
+      "title": "st-丝袜图层组合",
       "pos": [
         420,
         610
@@ -395,7 +395,7 @@
     {
       "id": 13,
       "type": "NFStockingDamageConfig",
-      "title": "tb-丝袜损伤配置",
+      "title": "st-丝袜损伤配置",
       "pos": [
         840,
         610
@@ -433,7 +433,7 @@
     {
       "id": 14,
       "type": "NFStockingMaterial",
-      "title": "tb-丝袜基础材质",
+      "title": "st-丝袜基础材质",
       "pos": [
         1260,
         610

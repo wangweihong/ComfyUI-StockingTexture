@@ -194,7 +194,7 @@
     "output_name": [
       "depth_white_near"
     ],
-    "display_name": "tb-丝袜深度辅助 Small"
+    "display_name": "st-丝袜深度辅助 Small"
   },
   "NFStockingEditor": {
     "input": {
@@ -255,7 +255,7 @@
       "regions_mask",
       "guides_preview"
     ],
-    "display_name": "tb-丝袜引导编辑器"
+    "display_name": "st-丝袜引导编辑器"
   },
   "NFStockingRender": {
     "input": {
@@ -408,7 +408,7 @@
       "diagnostics",
       "report"
     ],
-    "display_name": "tb-丝袜纹理（油光为试验）"
+    "display_name": "st-丝袜纹理（油光为试验）"
   },
   "NFStockingSAMLoader": {
     "input": {
@@ -439,7 +439,7 @@
     "output_name": [
       "NF_STOCKING_SAM"
     ],
-    "display_name": "tb-丝袜 SAM 点选模型"
+    "display_name": "st-丝袜 SAM 点选模型"
   },
   "NFStockingSolve": {
     "input": {
@@ -491,7 +491,7 @@
       "fields",
       "isolines_preview"
     ],
-    "display_name": "tb-丝袜走向求解"
+    "display_name": "st-丝袜走向求解"
   },
   "ParallelVideoComparison": {
     "input": {

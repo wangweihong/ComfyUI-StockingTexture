@@ -21,7 +21,7 @@ def render_inputs():
                    for k in ('renderer_version','layer_mode','moire_on','moire','moire_area','sparkle_link')})
 
 
-CATEGORY = "南风节点/丝袜纹理"
+CATEGORY = "StockingTexture/丝袜纹理"
 _node_sessions = OrderedDict()
 _session_lock = threading.RLock()
 
@@ -195,9 +195,9 @@ class NFStockingDepth:
 
 
 NODE_CLASS_MAPPINGS = {cls.__name__: cls for cls in (NFStockingEditor, NFStockingSolve, NFStockingRender, NFStockingSAMLoader, NFStockingDepth)}
-NODE_DISPLAY_NAME_MAPPINGS = {"NFStockingEditor": "tb-丝袜引导编辑器", "NFStockingSolve": "tb-丝袜走向求解",
-                              "NFStockingRender": "tb-丝袜纹理（油光为试验）", "NFStockingSAMLoader": "tb-丝袜 SAM 点选模型",
-                              "NFStockingDepth": "tb-丝袜深度辅助 Small"}
+NODE_DISPLAY_NAME_MAPPINGS = {"NFStockingEditor": "st-丝袜引导编辑器", "NFStockingSolve": "st-丝袜走向求解",
+                              "NFStockingRender": "st-丝袜纹理（油光为试验）", "NFStockingSAMLoader": "st-丝袜 SAM 点选模型",
+                              "NFStockingDepth": "st-丝袜深度辅助 Small"}
 
 
 def prepare_session(images, settings, guides_json="{}", mask=None, sam=None, sam3_model=None, depth=None, sparkle_mask=None, unique_id="", material=None):
@@ -293,8 +293,8 @@ try:
                 else:
                     cls_type = {"STRING": io.String, "FLOAT": io.Float, "INT": io.Int, "BOOLEAN": io.Boolean}[typ]
                     inputs.append(cls_type.Input(name, default=options.get("default"), optional=True))
-            return io.Schema(node_id="NFStockingPrepare", display_name="Stocking preview capture (internal)",
-                category="_ToolBox/internal", is_dev_only=True, is_output_node=True,
+            return io.Schema(node_id="NFStockingPrepare", display_name="st-Stocking preview capture (internal)",
+                category="_StockingTexture/internal", is_dev_only=True, is_output_node=True,
                 inputs=inputs, outputs=[])
 
         @classmethod
@@ -315,7 +315,7 @@ except ImportError:
                     "guides_json": ("STRING", {"default": "{}"})}, "optional": NFStockingTexture.INPUT_TYPES()["optional"]}
         RETURN_TYPES = ()
         FUNCTION = "execute"
-        CATEGORY = "_ToolBox/internal"
+        CATEGORY = "_StockingTexture/internal"
         OUTPUT_NODE = True
         def execute(self, images, settings_json="{}", guides_json="{}", **kwargs):
             settings = json.loads(settings_json)
@@ -327,11 +327,12 @@ except ImportError:
             return {"ui": {"nf_stocking": [prepare_session(images, settings, guides_json, **kwargs)]}, "result": ()}
 
 NODE_CLASS_MAPPINGS.update(NFStockingTexture=NFStockingTexture, NFStockingPrepare=NFStockingPrepare)
-NODE_DISPLAY_NAME_MAPPINGS["NFStockingTexture"] = "tb-丝袜纹理 · 一体化编辑与批处理"
+NODE_DISPLAY_NAME_MAPPINGS["NFStockingPrepare"] = "st-Stocking preview capture (internal)"
+NODE_DISPLAY_NAME_MAPPINGS["NFStockingTexture"] = "st-丝袜纹理 · 一体化编辑与批处理"
 
 from .psd import NFStockingPSDLoad, NFStockingPSDSave
 NODE_CLASS_MAPPINGS.update(NFStockingPSDLoad=NFStockingPSDLoad, NFStockingPSDSave=NFStockingPSDSave)
-NODE_DISPLAY_NAME_MAPPINGS.update(NFStockingPSDLoad="tb-丝袜 PSD/PSB 导入", NFStockingPSDSave="tb-丝袜引导 PSD 导出")
+NODE_DISPLAY_NAME_MAPPINGS.update(NFStockingPSDLoad="st-丝袜 PSD/PSB 导入", NFStockingPSDSave="st-丝袜引导 PSD 导出")
 
 from .material_nodes import NODE_CLASS_MAPPINGS as material_nodes, NODE_DISPLAY_NAME_MAPPINGS as material_names
 NODE_CLASS_MAPPINGS.update(material_nodes)

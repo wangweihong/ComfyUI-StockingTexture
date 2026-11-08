@@ -45,7 +45,7 @@
     {
       "id": 2,
       "type": "NFStockingTexture",
-      "title": "tb-丝袜纹理 · 一体化编辑与批处理",
+      "title": "st-丝袜纹理 · 一体化编辑与批处理",
       "pos": [
         420,
         160
@@ -198,7 +198,7 @@
     {
       "id": 3,
       "type": "NFStockingTexture",
-      "title": "tb-丝袜纹理 · 一体化编辑与批处理",
+      "title": "st-丝袜纹理 · 一体化编辑与批处理",
       "pos": [
         1260,
         160
